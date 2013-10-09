@@ -40,7 +40,7 @@ passport.serializeUser(function(user, done) {
 });
 
 passport.deserializeUser(function(id, done) {
-  done();
+  done(null, id);
 });
 
 app.configure('development', function() {
