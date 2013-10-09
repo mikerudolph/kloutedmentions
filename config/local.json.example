@@ -1,0 +1,27 @@
+{
+  "host": "localhost",
+  "port": "9090",
+  "url": "http://localhost:9090/",
+
+  "session": {
+    "secret": ""
+  },
+
+  "redis": {
+    "host": "localhost",
+    "port": "6739"
+  },
+
+  "postgres": {
+    "host": "localhost",
+    "user": "",
+    "pass": "",
+    "database": ""
+  },
+
+  "twitter": {
+    "consumerKey": "",
+    "consumerSecret": "",
+    "callbackPath": "/auth/return"
+  }
+}

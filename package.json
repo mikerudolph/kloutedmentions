@@ -1,0 +1,41 @@
+{
+  "name": "Klouted-Mentions",
+  "versions": "0.0.1",
+
+  "description": "Twitter web client that displays your mentions sorted by each senders Klout score.",
+
+  "homepage": "http://kloutedmentions.com",
+
+  "author": {
+    "name": "Mike Rudolph",
+    "url": "http://about.me/mikerudolph"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikerudolph/kloutedmentions.git"
+  },
+
+  "bugs": {
+    "email": "itsmikerudolph@gmail.com",
+    "url": "http://github.com/mikerudolph/kloutedmentions/issues"
+  },
+
+  "main": "./app.js",
+
+  "engines": {
+    "node": "0.10.18"
+  },
+
+  "dependencies": {
+    "express": "3.4.0",
+    "redis": "0.8.4",
+    "connect-redis": "1.4.5",
+    "lodash": "1.3.1",
+    "async": "0.2.9",
+    "cli-color": "0.2.2",
+    "passport": "0.1.17",
+    "passport-twitter": "1.0.2",
+    "ejs-locals": "1.0.2"
+  }
+}
