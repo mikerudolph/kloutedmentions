@@ -1,7 +1,6 @@
 #!/usr/local/bin/node
 
 /* jshint browser:false, node:true*/
-/* globals require */
 
 'use strict';
 
